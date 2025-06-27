@@ -133,7 +133,7 @@ export default function YouTubeEarningsCalculator() {
               </button>
               <h3 className="text-lg font-semibold mb-2 text-gray-800">Estimate Disclaimer</h3>
               <p className="text-sm text-gray-700">
-                This calculator provides a rough estimate and actual earnings may vary depending on multiple factors including region, viewer demographics, and YouTube's revenue sharing model.
+                This calculator provides a rough estimate and actual earnings may vary depending on multiple factors including region, viewer demographics, and YouTube&apos;s revenue sharing model.
               </p>
               <p className="text-sm text-gray-700 mt-3">
                 <strong>Calculation:</strong> Monetized Views = Total Views × Monetized %.<br />
