@@ -28,7 +28,7 @@ export default function YouTubeEarningsCalculator() {
               type="text"
               inputMode="numeric"
               pattern="\d*"
-              className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 text-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
+              className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 text-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 text-black"
               value={views.toLocaleString()}
               onChange={(e) => {
                 const raw = e.target.value.replace(/,/g, '');
@@ -43,7 +43,7 @@ export default function YouTubeEarningsCalculator() {
               type="text"
               inputMode="numeric"
               pattern="\d*"
-              className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 text-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
+              className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 text-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 text-black"
               value={monetizedPercent.toLocaleString()}
               onChange={(e) => {
                 const raw = e.target.value.replace(/,/g, '');
@@ -59,7 +59,7 @@ export default function YouTubeEarningsCalculator() {
                 type="text"
                 inputMode="numeric"
                 pattern="\d*"
-                className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 text-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 text-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 text-black"
                 value={cpmLow.toLocaleString()}
                 onChange={(e) => {
                   const raw = e.target.value.replace(/,/g, '');
@@ -71,7 +71,7 @@ export default function YouTubeEarningsCalculator() {
                 type="text"
                 inputMode="numeric"
                 pattern="\d*"
-                className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 text-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 text-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 text-black"
                 value={cpmHigh.toLocaleString()}
                 onChange={(e) => {
                   const raw = e.target.value.replace(/,/g, '');
@@ -84,7 +84,7 @@ export default function YouTubeEarningsCalculator() {
         </div>
 
         <div className="mt-6">
-          <h2 className="text-xl font-semibold">Estimated Earnings:</h2>
+          <h2 className="text-xl font-semibold text-black">Estimated Earnings:</h2>
           <div className="mt-4 grid grid-cols-1 gap-4">
             <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 text-center shadow-sm flex flex-col">
               <p className="text-sm text-gray-500">Conservative (CPM ${cpmLow})</p>
